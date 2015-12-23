@@ -1,5 +1,6 @@
 #!/bin/bash
 
+###
 if [[ ! -e $1 ]] ; then echo -e "incorrect address for a key!"; exit 1; fi
 
 GREEN="\033[1;32m"

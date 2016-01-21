@@ -21,7 +21,7 @@ else
 	name=$(echo $keyway | grep -Eo '[a-Z]*@' | grep -Eo '[a-Z]*')
 fi
 
-touch ~/.bash_aliases
+touch ~/.bash_aliases;
 echo -e "alias pay='ssh -i $keyway $name@172.25.18.2'\n\
 alias pay='ssh -i $keyway $name@172.25.18.2'\n\
 alias fcp='ssh -i $keyway $name@172.25.18.1'\n\
